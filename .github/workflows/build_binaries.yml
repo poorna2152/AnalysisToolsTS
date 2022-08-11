@@ -21,6 +21,6 @@ jobs:
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
-      files: |
-        build/submitty_count_ts
-        build/submitty_diagnostics_ts
+        files: |
+          build/submitty_count_ts
+          build/submitty_diagnostics_ts
